@@ -1,14 +1,47 @@
 {
-  "name": "vatstheme",
-  "displayName": "vatstheme",
-  "description": "",
+  "name": "VatsTheme",
+  "displayName": "VatsTheme",
+  "author": {
+    "name": "Vatsal"
+  },
+  "description": "Vatsal theme - inspired by Nextjs doc",
   "version": "0.0.1",
+  "publisher": "LokeshKavisth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vatsaldrc/vatsaldrctheme/issues"
+  },
+  "homepage": "https://github.com/vatsaldrc/vatsaldrctheme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vatsaldrc/vatsaldrctheme"
+  },
+  "icon": "icon.jpg",
+  "keywords": [
+    "lighttheme",
+    "theme",
+    "dark theme",
+    "vats theme",
+    "theme by vatsal"
+  ],
+  "galleryBanner": {
+    "color": "#040608",
+    "theme": "dark"
+  },
   "engines": {
-    "vscode": "^1.97.0"
+    "vscode": "^1.75.0"
   },
   "categories": [
     "Themes"
   ],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  },
   "contributes": {
     "themes": [
       {
